@@ -1,0 +1,23 @@
+#! /bin/sh
+
+echo "Making symbolic links ..."
+
+if [ ! -d openssl ] && [ -d openssl-1.0.1 ];\
+then\
+	ln -s openssl-1.0.1 openssl;\
+fi
+
+if [ ! -e libssl.a ];\
+then\
+	ln -s openssl/libssl.a libssl.a;\
+fi
+
+if [ ! -e libcrypto.a ];\
+then\
+	ln -s openssl/libcrypto.a libcrypto.a;\
+fi
+
+if [ ! -e t1_lib.c ];\
+then\
+	ln -s openssl/ssl/t1_lib.c t1_lib.c;\
+fi
