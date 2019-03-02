@@ -2,11 +2,7 @@
 Notes on Heartbleed Project Files
 
 
-To begin, unzip the ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916.zip file which should result in the creation of a
-large file tree in a directory called "ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916". This ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916 directory will be 
-your main working directory.Change directory into ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916 and follow all of the instructions below.
-
-  cd ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916
+  cd into the directory with the file structure
 
 Before starting, execute the following shell script to create some links:
 
