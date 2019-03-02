@@ -96,7 +96,7 @@ You should be able to run the following:
 
   make
 
-in the ISA656_RESEARCH_PROJECT_JACOBS_BRANDON_G00895916 directory and it will create the client and server files used in the 
+in the current directory and it will create the client and server files used in the 
 discussions below. The OpenSSL libraries are already built and should not need
 to be rebuilt. If there are any compilation errors and you are not running on
 FreeBSD 10.2, you may have to adjust the header files used in the source files.
